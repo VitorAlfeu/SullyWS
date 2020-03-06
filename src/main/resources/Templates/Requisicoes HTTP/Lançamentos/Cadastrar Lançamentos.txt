@@ -1,0 +1,16 @@
+MÉTODO: POST
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/lancamentos
+
+Headers
+Key = Content-Type
+Value = application/json
+
+{
+	"valor" : "1000.00",
+	"usuario" : "3",
+	"usuarioDevedor" : "1",
+	"titulo" : "Carona para rodoviária",
+	"descricao" : "Crona para a Rodoviária do Mês",
+	"dataHoraAReceber" : "2020-02-01T19:00:00"
+}

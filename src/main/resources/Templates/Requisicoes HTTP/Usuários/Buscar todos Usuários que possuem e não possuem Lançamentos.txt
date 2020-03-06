@@ -1,0 +1,3 @@
+MÉTODO: GET
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/usuarios/todos/comesemlancamentos

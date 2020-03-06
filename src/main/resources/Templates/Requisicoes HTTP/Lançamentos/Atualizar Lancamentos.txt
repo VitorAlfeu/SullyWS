@@ -1,0 +1,21 @@
+MÉTODO: PUT
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/lancamentos
+
+Headers
+Key = Content-Type
+Value = application/json
+
+{
+	"id" : "1",
+	"dataHora" : "2019-12-16T15:52:34.609",
+	"status" : "AGUARDANDO_PAGAMENTO",
+	"valor" : "1",
+	"usuario" : "1",
+	"usuarioDevedor" : "2",
+	"titulo" : "Título de Teste",
+	"descricao" : "Descricao de teste"
+}
+
+OBS: Neste método, é possível atualizar um ou N dos campos, desde que continue passando o Id para identificação
+do registro a ser atualizado.

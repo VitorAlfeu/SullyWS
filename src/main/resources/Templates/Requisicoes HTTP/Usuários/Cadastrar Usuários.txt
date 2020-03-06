@@ -1,0 +1,17 @@
+MÉTODO: POST
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/usuarios
+
+Headers
+Key = Content-Type
+Value = application/json
+
+{
+	"login"   : "vitor",
+	"senha"   : "456",
+	"nome"    : "Vitor Alfeu",
+	"email"   : "vitor@alfeu.com",
+	"logado" : "false",
+	"dataNasc" : "1996-02-29",
+	"apelido" : "vitorrr"
+}

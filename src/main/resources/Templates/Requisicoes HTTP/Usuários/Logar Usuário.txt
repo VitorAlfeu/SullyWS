@@ -1,0 +1,12 @@
+MÉTODO: POST
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/usuarios/login
+
+Headers
+Key = Content-Type
+Value = application/json
+
+{
+	"login": "IGOR",
+	"senha": "123"
+}

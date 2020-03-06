@@ -1,0 +1,20 @@
+MÉTODO: POST
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/lancamentos/porperiodo
+
+Headers
+Key = Content-Type
+Value = application/json
+
+{
+	"usuarioId"   : "1",
+	"dataInicial" : "2019-01-08T00:00:00",
+	"dataFinal"   : "2020-12-31T23:59:59"
+}
+
+OU PARA TRAZER TODOS, É SÓ TIRAR O CAMPO ID
+
+{
+	"dataInicial" : "2019-01-08T00:00:00",
+	"dataFinal"   : "2020-12-31T23:59:59"
+}

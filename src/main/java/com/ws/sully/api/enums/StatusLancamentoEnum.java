@@ -1,0 +1,9 @@
+package com.ws.sully.api.enums;
+
+public enum StatusLancamentoEnum {
+	AGUARDANDO_PAGAMENTO,
+	PAGO,
+	SOLICITADA_CONFIRMACAO_PAGAMENTO,
+	CANCELADO,
+	SOLICITADO_CANCELAMENTO_PAGAMENTO
+}

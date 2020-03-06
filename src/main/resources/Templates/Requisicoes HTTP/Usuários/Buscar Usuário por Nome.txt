@@ -1,0 +1,5 @@
+MÉTODO: GET
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/usuarios/buscarpornome/vitor
+
+OBS: Onde vitor_alfeu é um exemplo de Nome e a rota vai pesquisar usuários que possuam nome eu login = vitor

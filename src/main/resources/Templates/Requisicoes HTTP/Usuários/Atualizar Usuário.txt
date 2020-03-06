@@ -1,0 +1,18 @@
+MÉTODO: PUT
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/usuarios
+
+Headers
+Key = Content-Type
+Value = application/json
+
+{
+	"id"      : "1",
+	"login"   : "Vitor",
+	"senha"   : "456",
+	"nome"    : "Vitor Alfeu",
+	"email"   : "vitor@alfeu.com",
+	"logado" : "false",
+	"dataNasc" : "1996-02-30",
+	"apelido" : "vitin"
+}

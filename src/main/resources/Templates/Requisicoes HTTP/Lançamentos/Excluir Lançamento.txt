@@ -1,0 +1,5 @@
+MÉTODO: DELETE
+
+Requisição a ser feita = https://frozen-garden-42914.herokuapp.com/api/lancamentos/1
+
+OBS: 1 é o código de exemplo do Lançamento
